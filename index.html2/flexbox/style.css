@@ -15,22 +15,26 @@ body{
 .flex-container{
     display:flex;
     background: #fff;
+    flex-wrap: wrap;
+    flex-flow: row;
+    height: 600px;
+   align-items: flex-end;
+   justify-content: center;
 }
-
 .box{
     height: 100px;
-    min-width: 100px;
-    flex-grow: 1;
+    flex: 0 0 100px;
+    
+   
 }
-
 .one{
     background: red;
 }
-
 .two{
     background: blue;
+   
 }
-
 .three{
     background: green;
+    
 }
